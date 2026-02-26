@@ -1,0 +1,27 @@
+/* Misaki Theme - 深紫與淺灰的平衡 */
+:root {
+  --misaki-primary: #6d5c7e; /* 沉穩的紫色 */
+  --misaki-bg: #1a1a1c;      /* 接近黑色的深灰，適合熬夜的妳 */
+  --misaki-bubble: #f3f0f5;  /* 淺紫灰色氣泡 */
+}
+
+.chat-bubble-assistant {
+  background-color: var(--misaki-bubble);
+  color: #2d243a;
+  border-left: 4px solid var(--misaki-primary);
+  border-radius: 4px 16px 16px 16px;
+  padding: 12px;
+  margin-left: 10px;
+  position: relative;
+}
+
+/* 在氣泡旁顯示頭像 */
+.avatar-frame {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 2px solid var(--misaki-primary);
+  overflow: hidden;
+  background-image: url('https://raw.githubusercontent.com/jdeng20211-svg/misaki/refs/heads/main/normal.PNG'); /* 這裡換成妳最喜歡的那張美咲圖 */
+  background-size: cover;
+}
